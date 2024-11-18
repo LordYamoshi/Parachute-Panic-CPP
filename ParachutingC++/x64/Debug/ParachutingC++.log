@@ -1,4 +1,5 @@
 ﻿  Source.cpp
+<<<<<<< HEAD
 C:\Users\lordy\OneDrive\Desktop\Parachute\Parachute-Panic-CPP\ParachutingC++\Source.cpp(26,58): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
 C:\Users\lordy\OneDrive\Desktop\Parachute\Parachute-Panic-CPP\ParachutingC++\Source.cpp(26,58): warning C4244:         with
 C:\Users\lordy\OneDrive\Desktop\Parachute\Parachute-Panic-CPP\ParachutingC++\Source.cpp(26,58): warning C4244:         [
@@ -10,3 +11,6 @@ C:\Users\lordy\OneDrive\Desktop\Parachute\Parachute-Panic-CPP\ParachutingC++\Sou
 C:\Users\lordy\OneDrive\Desktop\Parachute\Parachute-Panic-CPP\ParachutingC++\Source.cpp(26,40): warning C4244:             T=unsigned int
 C:\Users\lordy\OneDrive\Desktop\Parachute\Parachute-Panic-CPP\ParachutingC++\Source.cpp(26,40): warning C4244:         ]
   ParachutingC++.vcxproj -> C:\Users\lordy\OneDrive\Desktop\Parachute\Parachute-Panic-CPP\x64\Debug\ParachutingC++.exe
+=======
+  ParachutingC++.vcxproj -> C:\Users\lordy\Desktop\Parachute Panic C++\Parachute-Panic-CPP\x64\Debug\ParachutingC++.exe
+>>>>>>> origin/main

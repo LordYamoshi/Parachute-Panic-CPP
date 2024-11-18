@@ -2,7 +2,11 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
+<<<<<<< HEAD
       <FullPath>C:\Users\lordy\OneDrive\Desktop\Parachute\Parachute-Panic-CPP\x64\Debug\ParachutingC++.exe</FullPath>
+=======
+      <FullPath>C:\Users\lordy\Desktop\Parachute Panic C++\Parachute-Panic-CPP\x64\Debug\ParachutingC++.exe</FullPath>
+>>>>>>> origin/main
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

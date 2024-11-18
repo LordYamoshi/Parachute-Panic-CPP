@@ -2,12 +2,15 @@
 
 int main()
 {
-    sf::RenderWindow window(sf::VideoMode(1920, 1080), "SFML works!");
-    sf::CircleShape shape(100.f);
+    sf::RenderWindow window(sf::VideoMode(200, 200), "Parachute Panic C++");
+    sf::CircleShape shape(50.f);
+
     shape.setFillColor(sf::Color::Green);
     shape.setOrigin({ 50.f, 50.f });
 
     sf::View view = window.getDefaultView();
+
+
 
     while (window.isOpen())
     {
@@ -16,6 +19,7 @@ int main()
         {
             if (event.type == sf::Event::Closed)
                  window.close();
+
         }
 
         sf::Vector2u windowSize = window.getSize();
@@ -29,6 +33,8 @@ int main()
         window.clear();
         window.draw(shape);
         window.display();
+
+
     }
 
     return 0;
