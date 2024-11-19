@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -105,19 +105,27 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <AdditionalIncludeDirectories>C:\Users\lordy\OneDrive\Desktop\Parachute\Parachute-Panic-CPP\ParachutingC++\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
 =======
       <AdditionalIncludeDirectories>$(ProjectDir)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
 >>>>>>> origin/main
+=======
+      <AdditionalIncludeDirectories>C:\Users\lordy\OneDrive\Desktop\Parachute\ParachutingC++\ParachutingC++\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+>>>>>>> parent of addcae7 (Not many changes, but it is pretty cool)
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <AdditionalLibraryDirectories>C:\Users\lordy\OneDrive\Desktop\Parachute\Parachute-Panic-CPP\ParachutingC++\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
 =======
       <AdditionalLibraryDirectories>$(ProjectDir)\lib</AdditionalLibraryDirectories>
 >>>>>>> origin/main
+=======
+      <AdditionalLibraryDirectories>C:\Users\lordy\OneDrive\Desktop\Parachute\ParachutingC++\ParachutingC++\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+>>>>>>> parent of addcae7 (Not many changes, but it is pretty cool)
       <AdditionalDependencies>sfml-system-d.lib;sfml-window-d.lib;sfml-graphics-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>

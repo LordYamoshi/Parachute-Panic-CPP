@@ -3,12 +3,16 @@
 int main()
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     sf::RenderWindow window(sf::VideoMode(200, 200), "Parachute Panic C++");
     sf::CircleShape shape(50.f);
 
 =======
 <<<<<<< HEAD
     sf::RenderWindow window(sf::VideoMode(1920, 1080), "SFML works!");
+=======
+    sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
+>>>>>>> parent of addcae7 (Not many changes, but it is pretty cool)
     sf::CircleShape shape(100.f);
 =======
     sf::RenderWindow window(sf::VideoMode(200, 200), "Parachute Panic C++");
@@ -16,9 +20,6 @@ int main()
 >>>>>>> origin/main
 >>>>>>> origin/main
     shape.setFillColor(sf::Color::Green);
-    shape.setOrigin({ 50.f, 50.f });
-
-    sf::View view = window.getDefaultView();
 
 
 
@@ -32,6 +33,7 @@ int main()
 
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -51,6 +53,8 @@ int main()
 >>>>>>> origin/main
 >>>>>>> origin/main
 
+=======
+>>>>>>> parent of addcae7 (Not many changes, but it is pretty cool)
         window.clear();
         window.draw(shape);
         window.display();
