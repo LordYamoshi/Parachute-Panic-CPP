@@ -23,6 +23,11 @@ int main()
             event.size.height / shape.getLocalBounds().height);
         shape.setPosition(windowSize.x / 2, windowSize.y / 2);
 
+		if (sf::keyboard::isKeyPressed(sf::Keyboard::Key::Left))
+		{
+			shape.move(-0.1f, 0.0f);
+		}
+
 
         window.clear();
         window.draw(shape);
