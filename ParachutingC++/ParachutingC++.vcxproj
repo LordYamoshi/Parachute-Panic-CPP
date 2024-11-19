@@ -106,10 +106,14 @@
       <ConformanceMode>true</ConformanceMode>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <AdditionalIncludeDirectories>C:\Users\lordy\OneDrive\Desktop\Parachute\Parachute-Panic-CPP\ParachutingC++\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
 =======
       <AdditionalIncludeDirectories>$(ProjectDir)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
 >>>>>>> origin/main
+=======
+      <AdditionalIncludeDirectories>C:\Users\lordy\OneDrive\Desktop\Parachute\ParachutingC++\ParachutingC++\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+>>>>>>> parent of addcae7 (Not many changes, but it is pretty cool)
 =======
       <AdditionalIncludeDirectories>C:\Users\lordy\OneDrive\Desktop\Parachute\ParachutingC++\ParachutingC++\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
 >>>>>>> parent of addcae7 (Not many changes, but it is pretty cool)
@@ -119,10 +123,14 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <AdditionalLibraryDirectories>C:\Users\lordy\OneDrive\Desktop\Parachute\Parachute-Panic-CPP\ParachutingC++\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
 =======
       <AdditionalLibraryDirectories>$(ProjectDir)\lib</AdditionalLibraryDirectories>
 >>>>>>> origin/main
+=======
+      <AdditionalLibraryDirectories>C:\Users\lordy\OneDrive\Desktop\Parachute\ParachutingC++\ParachutingC++\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+>>>>>>> parent of addcae7 (Not many changes, but it is pretty cool)
 =======
       <AdditionalLibraryDirectories>C:\Users\lordy\OneDrive\Desktop\Parachute\ParachutingC++\ParachutingC++\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
 >>>>>>> parent of addcae7 (Not many changes, but it is pretty cool)

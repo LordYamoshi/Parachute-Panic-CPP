@@ -2,26 +2,9 @@
 
 int main()
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
     sf::RenderWindow window(sf::VideoMode(200, 200), "Parachute Panic C++");
     sf::CircleShape shape(50.f);
-
-=======
-<<<<<<< HEAD
-    sf::RenderWindow window(sf::VideoMode(1920, 1080), "SFML works!");
-=======
-    sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
->>>>>>> parent of addcae7 (Not many changes, but it is pretty cool)
-    sf::CircleShape shape(100.f);
-=======
-    sf::RenderWindow window(sf::VideoMode(200, 200), "Parachute Panic C++");
-    sf::CircleShape shape(50.f);
->>>>>>> origin/main
->>>>>>> origin/main
     shape.setFillColor(sf::Color::Green);
-
-
 
     while (window.isOpen())
     {
@@ -33,11 +16,6 @@ int main()
 
         }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> origin/main
         sf::Vector2u windowSize = window.getSize();
 
         shape.setScale(
@@ -45,16 +23,7 @@ int main()
             event.size.height / shape.getLocalBounds().height);
         shape.setPosition(windowSize.x / 2, windowSize.y / 2);
 
-<<<<<<< HEAD
-=======
-=======
-        shape.setOrigin(shape.getRadius(), shape.getRadius()); // Set origin to the center of the circle
-        shape.setPosition(window.getSize().x / 2.f, window.getSize().y / 2.f); // Center the circle in the window
->>>>>>> origin/main
->>>>>>> origin/main
 
-=======
->>>>>>> parent of addcae7 (Not many changes, but it is pretty cool)
         window.clear();
         window.draw(shape);
         window.display();
