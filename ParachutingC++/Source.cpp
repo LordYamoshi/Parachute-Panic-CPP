@@ -29,11 +29,6 @@ int main()
             event.size.height / shape.getLocalBounds().height);
         shape.setPosition(windowSize.x / 2, windowSize.y / 2);
 
-		if (sf::keyboard::isKeyPressed(sf::Keyboard::Key::Left))
-		{
-			shape.move(-0.1f, 0.0f);
-		}
-
 
 =======
 >>>>>>> parent of addcae7 (Not many changes, but it is pretty cool)
