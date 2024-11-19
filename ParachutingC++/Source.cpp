@@ -3,10 +3,15 @@
 int main()
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
     sf::CircleShape shape(100.f);
 >>>>>>> parent of addcae7 (Not many changes, but it is pretty cool)
+=======
+    sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
+    sf::CircleShape shape(100.f);
+>>>>>>> parent of 4359f7d (I didn't really change much)
     shape.setFillColor(sf::Color::Green);
 
     while (window.isOpen())
@@ -16,9 +21,9 @@ int main()
         {
             if (event.type == sf::Event::Closed)
                  window.close();
-
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         sf::Vector2u windowSize = window.getSize();
@@ -30,11 +35,11 @@ int main()
 
 =======
 >>>>>>> parent of addcae7 (Not many changes, but it is pretty cool)
+=======
+>>>>>>> parent of 4359f7d (I didn't really change much)
         window.clear();
         window.draw(shape);
         window.display();
-
-
     }
 
     return 0;
