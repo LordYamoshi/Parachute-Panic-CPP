@@ -4,7 +4,10 @@ int main()
 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of addcae7 (Not many changes, but it is pretty cool)
     sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
     sf::CircleShape shape(100.f);
 >>>>>>> parent of addcae7 (Not many changes, but it is pretty cool)
@@ -26,6 +29,7 @@ int main()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         sf::Vector2u windowSize = window.getSize();
 
         shape.setScale(
@@ -37,6 +41,8 @@ int main()
 >>>>>>> parent of addcae7 (Not many changes, but it is pretty cool)
 =======
 >>>>>>> parent of 4359f7d (I didn't really change much)
+=======
+>>>>>>> parent of addcae7 (Not many changes, but it is pretty cool)
         window.clear();
         window.draw(shape);
         window.display();
