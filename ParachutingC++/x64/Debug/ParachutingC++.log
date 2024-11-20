@@ -1,13 +1,12 @@
 ﻿  Source.cpp
-C:\Users\lordy\Desktop\Parachute Panic C++\Parachute-Panic-CPP\ParachutingC++\Source.cpp(23,77): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
-C:\Users\lordy\Desktop\Parachute Panic C++\Parachute-Panic-CPP\ParachutingC++\Source.cpp(23,77): warning C4244:         with
-C:\Users\lordy\Desktop\Parachute Panic C++\Parachute-Panic-CPP\ParachutingC++\Source.cpp(23,77): warning C4244:         [
-C:\Users\lordy\Desktop\Parachute Panic C++\Parachute-Panic-CPP\ParachutingC++\Source.cpp(23,77): warning C4244:             T=float
-C:\Users\lordy\Desktop\Parachute Panic C++\Parachute-Panic-CPP\ParachutingC++\Source.cpp(23,77): warning C4244:         ]
-C:\Users\lordy\Desktop\Parachute Panic C++\Parachute-Panic-CPP\ParachutingC++\Source.cpp(23,59): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
-C:\Users\lordy\Desktop\Parachute Panic C++\Parachute-Panic-CPP\ParachutingC++\Source.cpp(23,59): warning C4244:         with
-C:\Users\lordy\Desktop\Parachute Panic C++\Parachute-Panic-CPP\ParachutingC++\Source.cpp(23,59): warning C4244:         [
-C:\Users\lordy\Desktop\Parachute Panic C++\Parachute-Panic-CPP\ParachutingC++\Source.cpp(23,59): warning C4244:             T=float
-C:\Users\lordy\Desktop\Parachute Panic C++\Parachute-Panic-CPP\ParachutingC++\Source.cpp(23,59): warning C4244:         ]
-  LINK : C:\Users\lordy\Desktop\Parachute Panic C++\Parachute-Panic-CPP\x64\Debug\ParachutingC++.exe not found or not built by the last incremental link; performing full link
+C:\Users\lordy\Desktop\Parachute Panic C++\Parachute-Panic-CPP\ParachutingC++\Source.cpp(22,77): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
+C:\Users\lordy\Desktop\Parachute Panic C++\Parachute-Panic-CPP\ParachutingC++\Source.cpp(22,77): warning C4244:         with
+C:\Users\lordy\Desktop\Parachute Panic C++\Parachute-Panic-CPP\ParachutingC++\Source.cpp(22,77): warning C4244:         [
+C:\Users\lordy\Desktop\Parachute Panic C++\Parachute-Panic-CPP\ParachutingC++\Source.cpp(22,77): warning C4244:             T=float
+C:\Users\lordy\Desktop\Parachute Panic C++\Parachute-Panic-CPP\ParachutingC++\Source.cpp(22,77): warning C4244:         ]
+C:\Users\lordy\Desktop\Parachute Panic C++\Parachute-Panic-CPP\ParachutingC++\Source.cpp(22,59): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
+C:\Users\lordy\Desktop\Parachute Panic C++\Parachute-Panic-CPP\ParachutingC++\Source.cpp(22,59): warning C4244:         with
+C:\Users\lordy\Desktop\Parachute Panic C++\Parachute-Panic-CPP\ParachutingC++\Source.cpp(22,59): warning C4244:         [
+C:\Users\lordy\Desktop\Parachute Panic C++\Parachute-Panic-CPP\ParachutingC++\Source.cpp(22,59): warning C4244:             T=float
+C:\Users\lordy\Desktop\Parachute Panic C++\Parachute-Panic-CPP\ParachutingC++\Source.cpp(22,59): warning C4244:         ]
   ParachutingC++.vcxproj -> C:\Users\lordy\Desktop\Parachute Panic C++\Parachute-Panic-CPP\x64\Debug\ParachutingC++.exe
