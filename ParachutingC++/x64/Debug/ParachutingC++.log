@@ -1,12 +1,10 @@
-﻿  Source.cpp
-C:\Users\lordy\Desktop\Parachute Panic C++\Parachute-Panic-CPP\ParachutingC++\Source.cpp(22,77): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
-C:\Users\lordy\Desktop\Parachute Panic C++\Parachute-Panic-CPP\ParachutingC++\Source.cpp(22,77): warning C4244:         with
-C:\Users\lordy\Desktop\Parachute Panic C++\Parachute-Panic-CPP\ParachutingC++\Source.cpp(22,77): warning C4244:         [
-C:\Users\lordy\Desktop\Parachute Panic C++\Parachute-Panic-CPP\ParachutingC++\Source.cpp(22,77): warning C4244:             T=float
-C:\Users\lordy\Desktop\Parachute Panic C++\Parachute-Panic-CPP\ParachutingC++\Source.cpp(22,77): warning C4244:         ]
-C:\Users\lordy\Desktop\Parachute Panic C++\Parachute-Panic-CPP\ParachutingC++\Source.cpp(22,59): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
-C:\Users\lordy\Desktop\Parachute Panic C++\Parachute-Panic-CPP\ParachutingC++\Source.cpp(22,59): warning C4244:         with
-C:\Users\lordy\Desktop\Parachute Panic C++\Parachute-Panic-CPP\ParachutingC++\Source.cpp(22,59): warning C4244:         [
-C:\Users\lordy\Desktop\Parachute Panic C++\Parachute-Panic-CPP\ParachutingC++\Source.cpp(22,59): warning C4244:             T=float
-C:\Users\lordy\Desktop\Parachute Panic C++\Parachute-Panic-CPP\ParachutingC++\Source.cpp(22,59): warning C4244:         ]
+﻿  Enemy.cpp
+  Game.cpp
+C:\Users\lordy\Desktop\Parachute Panic C++\Parachute-Panic-CPP\ParachutingC++\Game.cpp(18,11): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\lordy\Desktop\Parachute Panic C++\Parachute-Panic-CPP\ParachutingC++\Game.cpp(19,15): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  GameObject.cpp
+  Player.cpp
+  Rigidbody.cpp
+  main.cpp
+  Generating Code...
   ParachutingC++.vcxproj -> C:\Users\lordy\Desktop\Parachute Panic C++\Parachute-Panic-CPP\x64\Debug\ParachutingC++.exe

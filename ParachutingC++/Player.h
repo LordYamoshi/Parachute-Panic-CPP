@@ -1,10 +1,10 @@
 #pragma once
+#include "GameObject.h"
 
-#include "Character.h"
-
-class Player : public Character
+class Player : public GameObject
 {
-public: Player(sf::Texture texture, sf::Vector2f position);
-	  void Move(float delta) override;
+public:
+	Player(Vector2 startPos);
+	void handleInput() override;
+	void update(float delta) override;
 };
-
