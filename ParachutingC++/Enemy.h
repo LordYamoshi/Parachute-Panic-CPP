@@ -1,10 +1,13 @@
 #pragma once
+#include "GameObject.h"
 
-#include "Character.h"
-class Enemy : public Character
+
+class Enemy : public GameObject
 {
-public:
-	Enemy(sf::Texture texture, sf::Vector2f position, float speed);
-	void Move(float delta) override;
-};
+private:
+	Vector2 horizontalSpeed;
 
+public:
+	Enemy(Vector2 startPos, float speed);
+	void update(float delta) override;
+};
