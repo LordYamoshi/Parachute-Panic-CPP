@@ -6,6 +6,7 @@ void Enemy::update(float delta)
 {
 	rigidbody.addForce(Vector2(0,100));
 	rigidbody.update(delta);
+	rigidbody.setUseGravity(true);
 
 	Vector2 pos = rigidbody.getPosition();
 	float screenWidth = 800;

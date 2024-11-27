@@ -68,7 +68,7 @@ void Game::run() {
 
 		window.clear();
 		player.render(window);
-		for (auto& enemy : enemies) {
+		for (auto enemy : enemies) {
 			enemy.render(window);
 		}
 

@@ -1,7 +1,21 @@
 #include "Vector2.h"
 #include <cmath>
+#include <iostream>
+
+Vector2::Vector2() : x(0), y(0) {}
 
 Vector2::Vector2(float x, float y) : x(x), y(y) {}
+
+Vector2::Vector2(const Vector2& other) : x(other.x), y(other.y) {}
+
+
+Vector2& Vector2::operator=(const Vector2& other)
+{
+	if (this == &other) return *this;
+	x = other.x;
+	y = other.y;
+
+}
 
 Vector2 Vector2::operator+(const Vector2& other) const
 {
@@ -60,6 +74,6 @@ float Vector2::magnitude() const
 Vector2 Vector2::normalized() const
 {
 	float mag = magnitude();
-	return Vector2(x / mag, y / mag);
+	return (mag == 0) ? Vector2(0,0) : Vector2(x / mag, y / mag);
 }
 

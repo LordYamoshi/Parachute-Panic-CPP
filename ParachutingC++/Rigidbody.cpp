@@ -1,19 +1,39 @@
 #include "Rigidbody.h"
 
-Rigidbody::Rigidbody(Vector2 startPos, float friction) : position(startPos), friction(friction) {}
+Rigidbody::Rigidbody(Vector2 startPos, bool canUseGravity) : position(startPos) , velocity(), acceleration(),gravity(3), maxVelocity(100.0f), canUseGravity(canUseGravity){}
 
-void Rigidbody::addForce(Vector2 force)
+
+void Rigidbody::addForce(const Vector2& force)
 {
 	acceleration += force;
 }
 
+
+void Rigidbody::addGravity()
+{
+	if (!canUseGravity) return;
+	addForce(Vector2(0, gravity));
+}
+
 void Rigidbody::update(float delta)
 {
+	addGravity();
 	velocity += acceleration * delta;
-	velocity *= friction;
 	position += velocity * delta;
-	acceleration = Vector2();
+	acceleration = {}; 
 }
+
+
+void Rigidbody::setUseGravity(bool useGravity)
+{
+	canUseGravity = useGravity;
+}
+
+bool Rigidbody::isUsingGravity() const
+{
+	return canUseGravity;
+}
+
 
 Vector2 Rigidbody::getPosition() const
 {
@@ -28,4 +48,9 @@ void Rigidbody::setPosition(const Vector2& pos)
 Vector2 Rigidbody::getVelocity() const
 {
 	return velocity;
+}
+
+void Rigidbody::setVelocity(const Vector2& vel)
+{
+	velocity = vel;
 }

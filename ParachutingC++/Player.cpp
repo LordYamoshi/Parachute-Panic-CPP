@@ -17,16 +17,21 @@ void Player::handleInput()
 void Player::update(float delta)
 {
 	rigidbody.update(delta);
+	rigidbody.setUseGravity(false);
+	
 
 	Vector2 pos = rigidbody.getPosition();
-	float width = 800;
+	float screenWidth = 800;
 	float playerWidth = shape.getSize().x;
 
-	if (pos.x < 0) {
+	if (pos.x <= 0)
+	{
 		pos.x = 0;
+		rigidbody.setVelocity(Vector2(0, rigidbody.getVelocity().y));
 	}
-	if (pos.x > width - playerWidth) {
-		pos.x = width - playerWidth;
+	if (pos.x >= screenWidth - playerWidth) {
+		pos.x = screenWidth - playerWidth;
+		rigidbody.setVelocity(Vector2(0, rigidbody.getVelocity().y));
 	}
 
 	rigidbody.setPosition(pos);

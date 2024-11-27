@@ -1,10 +1,2 @@
-﻿  Enemy.cpp
-  Game.cpp
-C:\Users\lordy\Desktop\Parachute Panic C++\Parachute-Panic-CPP\ParachutingC++\Game.cpp(18,11): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\lordy\Desktop\Parachute Panic C++\Parachute-Panic-CPP\ParachutingC++\Game.cpp(19,15): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-  GameObject.cpp
-  Player.cpp
-  Rigidbody.cpp
-  main.cpp
-  Generating Code...
+﻿  Player.cpp
   ParachutingC++.vcxproj -> C:\Users\lordy\Desktop\Parachute Panic C++\Parachute-Panic-CPP\x64\Debug\ParachutingC++.exe
