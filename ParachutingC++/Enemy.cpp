@@ -1,4 +1,8 @@
 #include "Enemy.h"
+#include "Projectile.h"
+#include "Game.h"
+
+extern Game* gameInstance;
 
 Enemy::Enemy(Vector2 startPos, float speed) : GameObject(startPos, sf::Vector2f(40, 40), sf::Color::Red),  horizontalSpeed(Vector2(speed, 0)) {}
 
@@ -22,5 +26,20 @@ void Enemy::update(float delta)
 	pos += horizontalSpeed * delta;
 	rigidbody.setPosition(pos);
 	shape.setPosition(pos.x, pos.y);
+
+}
+
+bool Enemy::isKilled() const
+{
+	return rigidbody.getPosition().y >= 600;
+}
+
+void Enemy::onCollision(GameObject& other)
+{
+	Projectile* projectile = dynamic_cast<Projectile*>(&other);
+	if (projectile) {
+		killed = true;
+		gameInstance->incrementScore();
+	}
 
 }

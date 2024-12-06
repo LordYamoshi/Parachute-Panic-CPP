@@ -9,12 +9,12 @@ Vector2::Vector2(float x, float y) : x(x), y(y) {}
 Vector2::Vector2(const Vector2& other) : x(other.x), y(other.y) {}
 
 
+
 Vector2& Vector2::operator=(const Vector2& other)
 {
 	if (this == &other) return *this;
 	x = other.x;
 	y = other.y;
-
 }
 
 Vector2 Vector2::operator+(const Vector2& other) const
@@ -65,12 +65,13 @@ Vector2& Vector2::operator/=(float scalar)
 	return *this;
 }
 
-
+// Returns the magnitude of the vector
 float Vector2::magnitude() const
 {
 	return std::sqrt(x * x + y * y);
 }
 
+// Checks if the magnitude is 0, if it is then return a vector with 0,0, else return the normalized vector
 Vector2 Vector2::normalized() const
 {
 	float mag = magnitude();

@@ -7,4 +7,6 @@ public:
 	Player(Vector2 startPos);
 	void handleInput() override;
 	void update(float delta) override;
+	void onCollision(GameObject& other) override;
+
 };

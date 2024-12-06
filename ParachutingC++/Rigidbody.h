@@ -7,6 +7,8 @@ private:
 	Vector2 position;
 	Vector2 velocity;
 	Vector2 acceleration;
+	Vector2 force;
+	Vector2 friction;
 	float gravity;
 	float maxVelocity;
 	bool canUseGravity;
@@ -28,6 +30,7 @@ public:
 
 	Vector2 getVelocity() const;
 	void setVelocity(const Vector2& vel);
+
 
 };
 

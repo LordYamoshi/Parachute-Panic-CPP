@@ -17,5 +17,7 @@ public:
 	sf::FloatRect getBounds() const;
 	Vector2 getPosition() const;
 	void setPosition(Vector2 position);
+	bool checkCollision(const GameObject& other) const;
+	virtual void onCollision(GameObject& other);
 };
 
