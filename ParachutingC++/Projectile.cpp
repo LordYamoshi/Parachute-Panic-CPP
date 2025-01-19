@@ -19,8 +19,3 @@ bool Projectile::isOutOfBounds() const
 {
 	return rigidbody.getPosition().y <= 0;
 }
-
-void Projectile::onCollision(GameObject& other)
-{
-	// Do nothing
-}

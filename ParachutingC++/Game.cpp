@@ -23,13 +23,13 @@ const int GAME_OVER_TEXT_Y = 300;
 
 Game::Game() : window(sf::VideoMode(800, 600), "Parachuting C++"), player(Vector2(375, 550)), score(0), lives(3), bullets(0), gameState(GameState::PLAYING), timeSinceLastSpawn(0.0f)
 {
-	gameInstance = this;
+	gameInstance = this; 
 	font.loadFromFile("arial.ttf");
 	
 	configureText(scoreText, SCORE_TEXT_SIZE, sf::Color::White, sf::Vector2f(SCORE_TEXT_X, SCORE_TEXT_Y));
 	configureText(livesText, LIVES_TEXT_SIZE, sf::Color::White, sf::Vector2f(LIVES_TEXT_X, LIVES_TEXT_Y));
 	configureText(bulletText, BULLET_TEXT_SIZE, sf::Color::White, sf::Vector2f(BULLET_TEXT_X, BULLET_TEXT_Y));
-	configureText(gameOverText, GAME_OVER_TEXT_SIZE, sf::Color::White, sf::Vector2f(GAME_OVER_TEXT_X, GAME_OVER_TEXT_Y), "Game Over");
+	configureText(gameOverText, GAME_OVER_TEXT_SIZE, sf::Color::White, sf::Vector2f(GAME_OVER_TEXT_X, GAME_OVER_TEXT_Y), "Game Over\n Press R to Restart");
 }
 
 void Game::configureText(sf::Text& text, int size, sf::Color color, sf::Vector2f position, const std::string& str) {
