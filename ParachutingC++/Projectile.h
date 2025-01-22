@@ -12,7 +12,5 @@ public:
 	void update(float delta) override;
 
 	bool isOutOfBounds() const;
-
-	void onCollision(GameObject& other) override;	
 };
 

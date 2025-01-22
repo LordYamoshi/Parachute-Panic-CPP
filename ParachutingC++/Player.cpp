@@ -53,5 +53,6 @@ void Player::onCollision(GameObject& other)
 	if (enemy != nullptr)
 	{
 		gameInstance->addToInventory(*enemy);
+		gameInstance->incrementScore();
 	}
 }

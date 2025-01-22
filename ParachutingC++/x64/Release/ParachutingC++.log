@@ -1,36 +1,7 @@
-﻿  Game.cpp
-C:\Users\lordy\Desktop\Parachute Panic C++\Parachute-Panic-CPP\ParachutingC++\Game.cpp(50,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xmemory(700,103): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  (compiling source file 'Game.cpp')
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xmemory(700,103):
-      the template instantiation context (the oldest one first) is
-          C:\Users\lordy\Desktop\Parachute Panic C++\Parachute-Panic-CPP\ParachutingC++\Game.cpp(50,11):
-          see reference to function template instantiation 'void std::vector<Enemy,std::allocator<Enemy>>::emplace_back<Vector2,int&>(Vector2 &&,int &)' being compiled
-          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(858,24):
-          see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<Vector2,int&>(Vector2 &&,int &)' being compiled
-          with
-          [
-              _Ty=Enemy
-          ]
-          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(776,20):
-          see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_back_with_unused_capacity<Vector2,int&>(Vector2 &&,int &)' being compiled
-          with
-          [
-              _Ty=Enemy
-          ]
-          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(794,27):
-          see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,Vector2,int&>(_Alloc &,_Objty *const ,Vector2 &&,int &)' being compiled
-          with
-          [
-              _Alloc=std::allocator<Enemy>,
-              _Ty=Enemy,
-              _Objty=Enemy
-          ]
-  
-LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+﻿  Player.cpp
   Generating code
-  2 of 329 functions ( 0.6%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+C:\Users\lordy\Desktop\Parachute Panic C++\Parachute-Panic-CPP\ParachutingC++\Vector2.cpp(18): warning C4715: 'Vector2::operator=': not all control paths return a value
+  All 328 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   Finished generating code
   ParachutingC++.vcxproj -> C:\Users\lordy\Desktop\Parachute Panic C++\Parachute-Panic-CPP\x64\Release\ParachutingC++.exe
